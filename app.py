@@ -120,7 +120,7 @@ with st.sidebar:
     st.subheader("⚙️ Engine Settings")
     api_url = st.text_input(
         "FastAPI Endpoint",
-        value="http://127.0.0.1:8000/negotiate",
+        value="https://a2a-vendor-negotiation-arena.onrender.com",
         help="Backend LangGraph FastAPI server URL",
     )
 
