@@ -147,3 +147,18 @@ Interactive Swagger API documentation will be available at: `http://localhost:80
   ]
 }
 ```
+
+---
+
+## 🖥️ Streamlit Interactive UI
+
+To run the Streamlit frontend with interactive bilateral bargaining and live transcript visualization:
+
+```bash
+# Terminal 1: Launch FastAPI backend
+uvicorn main:app --host 127.0.0.1 --port 8000 --reload
+
+# Terminal 2: Launch Streamlit frontend
+streamlit run app.py
+```
+
